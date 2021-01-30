@@ -104,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style">Book Now</button>
+            <button onclick="book()" class="btn-style">Book Now</button>
         </div>
     </main>
 
@@ -151,6 +151,9 @@
             const ticketCount = parseInt(ticketInput.value);
             return ticketCount;
         }
+        function book() {
+            alert('Your purchase has been successful');
+        }   
        </script>
     <!--Thank You-->
 </body>
